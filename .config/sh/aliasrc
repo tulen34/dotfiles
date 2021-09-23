@@ -1,0 +1,27 @@
+#!/bin/sh
+
+alias ls="ls --color=auto --group-directories-first"
+alias grep="grep --colour=auto"
+alias egrep="egrep --colour=auto"
+alias fgrep="fgrep --colour=auto"
+alias pcregrep="pcregrep --colour=auto"
+alias pacman="sudo pacman --color=auto"
+alias yay="yay --color=auto"
+
+alias cp="cp -iv"    # confirm before overwriting something
+alias df="df -h"     # human-readable sizes
+alias free="free -m" # show sizes in MB
+alias more=less
+
+alias evi="$EDITOR $XDG_CONFIG_HOME/nvim/init.vim"
+alias ealacritty="$EDITOR $XDG_CONFIG_HOME/alacritty/alacritty.yml"
+alias ealias="$EDITOR $XDG_CONFIG_HOME/sh/aliasrc"
+alias ebash="$EDITOR $HOME/.bashrc"
+alias ezsh="$EDITOR $HOME/.zshrc"
+
+alias cddoc="cd $HOME/Документы"
+alias cdimg="cd $HOME/Изображения"
+alias cddow="cd $HOME/Загрузки"
+alias cdmus="cd $HOME/Музыка"
+
+alias vi="/bin/nvim"
